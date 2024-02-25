@@ -1,0 +1,43 @@
+{
+  "name": "pointing-poker-server",
+  "version": "0.0.1",
+  "description": "Backend for pointing-poker task",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack watch --config webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.13",
+    "@types/ws": "^7.4.7",
+    "copy-webpack-plugin": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "eslint-webpack-plugin": "^3.0.1",
+    "nodemon-webpack-plugin": "^4.5.2",
+    "ts-loader": "^9.2.5",
+    "webpack-cli": "^4.8.0",
+    "webpack-node-externals": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.9.2",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "webpack": "^5.52.0",
+    "ws": "^8.2.1",
+    "@types/dompurify": "^2.2.3",
+    "dompurify": "^2.3.1"
+  }
+}
